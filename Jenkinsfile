@@ -4,7 +4,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello from Jenkins Pipeline!'
-                sh 'bat dir' 
             }
         }
     }
