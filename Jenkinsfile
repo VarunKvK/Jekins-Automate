@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Pipeline started by a GitHub push!'
-                sh 'ls -l'  // List files to verify code was pulled
+                bat 'dir /B'
             }
         }
     }
